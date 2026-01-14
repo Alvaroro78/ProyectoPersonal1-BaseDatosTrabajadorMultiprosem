@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="478.0" prefWidth="897.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.icesi.base_de_datos.HelloController">
+   <children>
+      <Label fx:id="infoBox" layoutX="305.0" layoutY="195.0" prefHeight="253.0" prefWidth="287.0" />
+      <TextField fx:id="code" layoutX="374.0" layoutY="53.0" text="Codigo de seguridad" />
+      <TextField fx:id="workerId" layoutX="374.0" layoutY="110.0" text="Id del trabajador" />
+      <Button layoutX="626.0" layoutY="78.0" mnemonicParsing="false" onAction="#search" text="Buscar" />
+   </children>
+</AnchorPane>
